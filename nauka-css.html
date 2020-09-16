@@ -9,23 +9,24 @@
 </head>
 
 <body>
-    <header>
-
-        <nav class="nav-panel"> 
-            <a href="index.html">Strona głowna </a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="nauka-css.html">Nauka css</a>
-            <a href="nauka-javascript.html">Nauka javascript</a>
+    <header class="header-body">
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Strona głowna </a>
+            <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+            <a class="navigation__link" href="nauka-css.html">Nauka css</a>
+            <a class="navigation__link" href="nauka-javascript.html">Nauka javascript</a>
         </nav>
     </header>
-    <Main>
+    <Main class="main">
         <header>
-            <h1 class="first-header">Notatki css</h1>
+            <h1 class="main-header">Notatki css</h1>
         </header>
         <img src="assets/images/css-logo.jpg"  alt="logo css" height="400" width="400">
 
         <section>
-            <h2 class="second-header">Podstawy css</h2>
+            <article class="week-summary">
+            <h2 class="week-summary__title">Podstawy css</h2>
+            <p class="week-summary__description">
                 <ul>
             <li>class - pozwala na gropowanie elementow odwolujemy sie przez "."</li>
             <li>id - uzywamy tylko do jednego elementu odwokujemy sie przez "#"</li>
@@ -42,6 +43,8 @@
                 </ul>
                 <li>Jednostki: px - pikesle, % - zalezne od rodzica, vh & vw - procent ale od rozmiaru calego okna a nie z rodzica</li>
             </ul>
+        </p>
+        </article>
         </section>
     </Main>
     <footer>

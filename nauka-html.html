@@ -9,24 +9,25 @@
 </head>
 
 <body>
-    <header>
-
-        <nav class="nav-panel"> 
-            <a href="index.html">Strona głowna </a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="nauka-css.html">Nauka css</a>
-            <a href="nauka-javascript.html">Nauka javascript</a>
+    <header class="header-body">
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Strona głowna </a>
+            <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+            <a class="navigation__link" href="nauka-css.html">Nauka css</a>
+            <a class="navigation__link" href="nauka-javascript.html">Nauka javascript</a>
         </nav>
     </header>
-    <Main>
-        <header>
-            <h1 class="first-header">Notatki html</h1>
+    <Main class= "main">
+        <header class="main-header">
+            <h1 class="main-header__description">Notatki html</h1>
         </header>
         <img src="assets/images/html-logo.jpg" alt="logo html" height="400" width="400">
 
 
         <section>
-            <h2 class="second-header">Znaczniki HTMl</h2>
+            <article class="week-summary">
+            <h2 class="week-summary__title">Znaczniki HTMl</h2>
+            <p class="week-summary__description">
             <ul>
             <li>"br" - przechodzi do nowej lini</li>
             <li>"b" (pogrubia), "i" (kursywa) - elementy do zaznaczania tekstu,nie maja znaczanie semantycznego, służa tylko
@@ -35,7 +36,8 @@
                 informacja mozemiec inne znaczanie (ironia);</li>
             <li>h1-h6 - znaczniki nagłówków</li>
         </ul>
-
+        </p>
+                </article>
         </section>
     </Main>
     <footer>
