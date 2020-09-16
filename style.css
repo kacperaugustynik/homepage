@@ -3,15 +3,15 @@ body {
     color: #D3BCC0;
 }
 
-.second-header {
-    color : yellowgreen
+.main-header {
+    color : orangered;
 }
 
-.first-header {
-    color: orangered;
+.second-section__header{
+    color : yellowgreen;
 }
 
-.third-header {
+.week-summary__title {
     color : yellow;
 }
 
@@ -33,4 +33,9 @@ body {
 .main {
     max-width: 700px;
     margin: 0px auto;
+}
+.second-section__article {
+    border: whitesmoke solid;
+    padding : 8px;
+    border-bottom: 10px;
 }
