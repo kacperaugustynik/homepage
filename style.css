@@ -15,14 +15,22 @@ body {
     color : yellow;
 }
 
-a {
-    color: lawngreen;
+.navigation {
+    background-color:#69fff8;
+    border-radius: 10px;
+    padding: 10px;
 }
-.nav-panel a {
-    color:hotpink;
+.navigation__link {
+    color: black;
+    padding: 16px;
 }
 
 
 .quad-header {
     color: green;
+}
+
+.main {
+    max-width: 700px;
+    margin: 0px auto;
 }
